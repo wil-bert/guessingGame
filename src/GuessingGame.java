@@ -22,16 +22,16 @@ public class GuessingGame {
             return "Your guess is invalid";
     }
         else if (userAnswer == computerNumber) {
-            return "Your answer is correct!n/Number of guesses:" + count;
+            return "Your answer is correct!\nNumber of guesses:" + count;
         }
         else if (userAnswer > computerNumber){
-            return "Your guess is too high,try again.n/Guess again:" + count;
+            return "Your guess is too high,try again.\nGuess again:" + count;
         }
         else if (userAnswer < computerNumber) {
-            return "Your guess is too low,try again.n/Guess again:" + count;
+            return "Your guess is too low,try again.\nGuess again:" + count;
         }
         else {
-            return "Your guess is incorrect,try again.n/Guess again:" + count;
+            return "Your guess is incorrect,try again.\nGuess again:" + count;
         }
 }
 }
